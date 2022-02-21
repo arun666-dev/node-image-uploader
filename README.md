@@ -1,8 +1,6 @@
+# Image-Uploader App
 
-# GoalSetter App.
-
-Users can upload images and list the images.
-
+Users can upload and list the images.
 
 ## Run Locally
 
@@ -19,10 +17,13 @@ Go to the project directory
 ```
 
 ### Install dependencies
- ```
- npm install
+
 ```
+npm install
+```
+
 ### Install dependencies
+
 ```
 npm start
 ```
