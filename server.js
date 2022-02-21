@@ -26,7 +26,8 @@ app.engine(
 
 // calling routes
 app.use("/", require("./server/router/router"));
+const port = process.env.PORT || 5000;
 
-app.listen(3001, () =>
-  console.log(`server is started on http://localhost:3001`)
+app.listen(5000, () =>
+  console.log(`server is started on http://localhost:${port}`)
 );
